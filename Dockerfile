@@ -20,7 +20,7 @@ FROM gcr.io/distroless/base-debian11
 
 WORKDIR /
 
-COPY --from=build /githubridge /githubstore
+COPY --from=build /githubstore /githubstore
 
 EXPOSE 8080
 EXPOSE 8081
