@@ -24,7 +24,6 @@ COPY --from=build /githubridge /githubstore
 
 EXPOSE 8080
 EXPOSE 8081
-EXPOSE 8082
 
 USER nonroot:nonroot
 
